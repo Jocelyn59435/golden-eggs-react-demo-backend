@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "nodemon server.ts"
+    "start": "nodemon build/server.js"
   },
   "keywords": [],
   "author": "",
