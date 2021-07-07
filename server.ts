@@ -5,5 +5,5 @@ const app = express();
 const port = process.env.PORT || 5000; // Heroku will need the PORT environment variable
 
 app.use(express.static(path.join(__dirname, 'dist')));
-
+console.log(__dirname);
 app.listen(port, () => console.log(`Server is listening to ${port}.`));
